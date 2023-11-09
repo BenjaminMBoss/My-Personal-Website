@@ -1,0 +1,32 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav > a{
+    text-decoration: none;
+    border: 0.5px solid slategray;
+    flex: 1;
+    text-align: center;
+    padding: 0.5rem;
+    color: slategray;
+    transition: all 0.25s;
+}
+
+nav > a:hover {
+    background-color: slategray;
+    color:antiquewhite;
+    transition: all 0.5s;
+}
+
+nav > a:first-child {
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+nav > a:last-child {
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+nav {
+    display:flex;
+    padding-left: 25%;
+    padding-right:25%;
+}
