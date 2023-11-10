@@ -1,20 +1,20 @@
 body {
-    background-color: antiquewhite;
+    background-color: #708090;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav > a{
     text-decoration: none;
-    border: 0.5px solid slategray;
+    border: 0.5px solid #faebd7;
     flex: 1;
     text-align: center;
     padding: 0.5rem;
-    color: slategray;
+    color: #faebd7;
     transition: all 0.25s;
 }
 
 nav > a:hover {
-    background-color: slategray;
-    color:antiquewhite;
+    background-color: #faebd7;
+    color:#708090;
     transition: all 0.5s;
 }
 
@@ -29,4 +29,30 @@ nav {
     display:flex;
     padding-left: 25%;
     padding-right:25%;
+}
+
+.logo {
+    animation: fadeIn 3s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}
+
+.quote {
+    color: #faebd7;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pictureBenBoss {
+    padding-top: 50px;
+    height: 500px;
+    width: 500px;
+    border-radius: 1rem;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
