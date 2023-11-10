@@ -42,15 +42,89 @@ nav {
 .quote {
     color: #faebd7;
     text-align: center;
+    font-size: 24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .pictureBenBoss {
+    border-radius: 0.5rem;
     padding-top: 50px;
     height: 500px;
     width: 500px;
-    border-radius: 1rem;
+    
 }
+
+.aboutMeContainer {
+    display: flex;
+    align-items:flex-start;
+    justify-content:left;
+}
+
+.aboutMeText {
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: 25px;
+    color: #faebd7;
+    padding-right: 20px;
+}
+.aboutMeText > p {
+    font-size: 22px;
+    font-weight: 100;
+    width: 450px;
+}
+
+.hobbiesInterests {
+    color: #faebd7;
+    font-size: 22px;
+    display: flex;
+    align-items: flex-start;
+}
+.hobbiesTitle {
+    color: #faebd7;
+    font-size: 25px;
+}
+.hobbiesInterestsList {
+    width: 450px;
+}
+
+.pictureNoraNala {
+    width: 30%;
+    height: 30%;
+    padding-left: 100px;
+    padding-right: 50px;
+    border-radius: 0.5rem;
+}
+
+.projectTop2 {
+    display: flex;
+    text-align: center;
+}
+.projectTop2 > div {
+    border: 1px solid #faebd7;
+    color: #faebd7;
+    padding: 5%;
+    margin: 5%;
+    width: 300px;
+    
+}
+
+.dineWithZuck {
+    width: 100px;
+    height: 100px;
+    border-radius: 0.5rem;
+}
+
+.projectBottom3 {
+    display: flex;
+    text-align: center;
+}
+.projectBottom3 > div {
+    border: 1px solid #faebd7;
+    color: #faebd7;
+    padding: 10%;
+    margin: 2.5%;
+}
+
 
 @keyframes fadeIn {
     0% {opacity: 0;}
