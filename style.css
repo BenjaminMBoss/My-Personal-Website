@@ -88,8 +88,8 @@ nav {
 }
 
 .pictureNoraNala {
-    width: 30%;
-    height: 30%;
+    width: 300px;
+    height: 400px;
     padding-left: 100px;
     padding-right: 50px;
     border-radius: 0.5rem;
@@ -121,7 +121,7 @@ nav {
 .projectBottom3 > div {
     border: 1px solid #faebd7;
     color: #faebd7;
-    padding: 10%;
+    padding: 5%;
     margin: 2.5%;
 }
 
