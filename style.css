@@ -146,10 +146,6 @@ nav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.contactForm {
-    margin-top: 2.5%;
-}
-
 .contactForm > form > label {
     display: flex;
     flex-wrap: wrap;
